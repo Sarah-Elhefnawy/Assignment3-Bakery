@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Alegreya", serif;
+}
+.container {
+    width: 65%;
+    /* background-color: aqua; */
+    margin: auto;
+}
+section {
+    padding-block: 50px;
+}
+.clear-fix {
+    clear: both;
+}
+
+/* Start of navbar */
+nav {
+    background-color: #FFFFFF;
+    box-shadow: 0 0.5px 3px #8E7754;
+    /* display: inline-block; */
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+.nav-image img{
+    width: 200px;
+    float: left;
+}
+.nav-content {
+    float: right;
+}
+.nav-content a {
+    color: gray;
+}
+.nav-content li {
+    float: left;
+    padding-inline: 10px;
+    padding-top: 20px;
+}
+/* End of navbar */
+
+/* Start of header */
+header {
+    height: 200px;
+    text-align: center;
+    background:  linear-gradient(rgba(0, 0, 0, 0.489) 0% 100%),url('./../images/drew-coffman-1872.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    color: #FFFFFF;
+}
+/* End of header */
+
+/* Start of Our story */
+.OurStory-image img {
+    width: 95%;
+}
+.OurStory-image {
+    display: inline-block;
+    width: 40%;
+    text-align: center;
+}
+.OurStory-content {
+    width: 45%;
+    display: inline-block;
+    color: #303030;
+}
+.OurStory-content i img {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 30px;
+}
+/* End of Our story */
+
+/* Start of Why Our Bakery */
+.WhyOurBakery {
+    background-color: #F8F8F8;
+}
+.WhyOurBakery-head {
+    text-align: center;
+}
+.WhyOurBakery-content {
+    width: 32%;
+    display: inline-block;
+    color: #303030;
+    padding: 10px;
+}
+/* End of Why Our Bakery */
+
+/* Start of js */
+.js {
+    background-color: #8E7754;
+    color: #F8F8F8;
+    text-align: center;
+    font-size: 30px;
+    line-height: 40px;
+}
+.js li {
+    width: 24%;
+    display: inline-block;
+}
+.js ul li img {
+    display: inline-block;
+    width: 35px;
+}
+/* End of js */
+
+/* Start of Footer Main */
+.FooterMain {
+    background-color: #403D38
+}
+.FooterMain-section {
+    width: 24%;
+    display: inline-block;
+}
+.FooterMain-section li img {
+    width: 8%;
+}
+.footer-map {
+    background-image:  url('./../images/contact-details-map.png');
+}
+/* End of Footer Main */
+
+/* Start of footer */
+footer {
+    background-color: #353330;
+    text-align: center;
+}
+.socials a {
+    color: #8c8a86;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #403D38;
+    border-radius: 50%;
+}
+/* End of footer */
