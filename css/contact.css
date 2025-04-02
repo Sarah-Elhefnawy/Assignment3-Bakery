@@ -19,8 +19,8 @@ section {
 
 /* Start of navbar */
 nav {
-    background-color: #FFFFFF;
-    box-shadow: 0 0.5px 3px #8E7754;
+    background-color: #FFFFFF;    
+    box-shadow: 0 0.5px 3px #8e775436;
     /* display: inline-block; */
     position: fixed;
     left: 0;
@@ -88,17 +88,43 @@ form {
 
 /* Start of Footer Main */
 .FooterMain {
-    background-color: #403D38
+    background-color: #403D38;
+}
+.FooterMain-section h4 {
+    color:#FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 10px;
 }
 .FooterMain-section {
-    width: 24%;
-    display: inline-block;
+    width: 25%;
+    float: left;
+    line-height: 40px;
+}
+.FooterMain-section p {
+    color: #969696;
+    font-family: 14px;
+    font-weight: 400;
+}
+.FooterMain-section span {
+    color: #969696;
+    font-family: 14px;
+    font-weight: 400;
+}
+.FooterMain-section li {
+    border-bottom: #686868 1px solid;
+}
+.FooterMain p {
+    padding-bottom: 20px;
 }
 .FooterMain-section li img {
-    width: 8%;
+    width: 10%;
 }
 .footer-map {
     background-image:  url('./../images/contact-details-map.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:auto;
 }
 /* End of Footer Main */
 
@@ -106,6 +132,18 @@ form {
 footer {
     background-color: #353330;
     text-align: center;
+    padding: 50px 0;
+    line-height: 40px;
+}
+footer p {
+    color: #777777;
+    font-size: 15px;
+    line-height: 27.9px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+.socials {
+    padding-top: 20px;
 }
 .socials a {
     color: #8c8a86;

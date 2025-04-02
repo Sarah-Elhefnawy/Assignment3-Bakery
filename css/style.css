@@ -35,7 +35,7 @@ span {
 /* Start of navbar */
 nav {
     background-color: #FFFFFF;
-    box-shadow: 0 0.001px 3px #8e77548e;
+    box-shadow: 0 0.5px 3px #8e775436;
     padding: 5px 0;
     position: fixed;
     left: 0;
@@ -95,7 +95,7 @@ header {
     background: #8E7754;
 }
 .header-buttons {
-    padding: 20px 0 100px;
+    padding: 20px 0 50px;
 }
 a.button-color {
     background-color: transparent; 

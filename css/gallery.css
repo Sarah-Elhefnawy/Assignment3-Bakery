@@ -5,17 +5,13 @@
     list-style: none;
     font-family: "Alegreya", serif;
 }
-
 .container {
     width: 65%;
-    /* background-color: aqua; */
     margin: auto;
 }
-
 section {
     padding-block: 50px;
 }
-
 .clear-fix {
     clear: both;
 }
@@ -24,125 +20,91 @@ section {
 nav {
     background-color: #FFFFFF;
     box-shadow: 0 0.5px 3px #8e775436;
-    /* display: inline-block; */
     position: fixed;
     left: 0;
     right: 0;
     z-index: 99;
 }
-
-.nav-image img {
+.nav-image img{
     width: 200px;
     float: left;
 }
-
 .nav-content {
     float: right;
 }
-
 .nav-content a {
     color: gray;
 }
-
 .nav-content li {
     float: left;
     padding-inline: 10px;
     padding-top: 20px;
 }
-
 /* End of navbar */
 
 /* Start of header */
 header {
     height: 200px;
     text-align: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.489) 0% 100%), url('./../images/drew-coffman-1872.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #F8F8F8;
     padding-top: 100px;
     color: #FFFFFF;
 }
-
-header h1 {
-    font-size: 50px;
+h1 {
+    color: #303030;
+    font-size: 36px;
+    line-height: 49.68px;
+    font-weight: 400;
 }
-
-header li {
-    display: inline;
+header p {
+    color: #686868;
+    font-size: 18px;
+    line-height: 33.48px;
+    font-weight: 400;
 }
-
-header a {
-    color: #FFFFFF;
-}
-
 /* End of header */
 
-/* Start of Our Offer */
-.OurOffer-list {
-    width: 32%;
-    display: inline-block;
-    font-size: 20px;
-    color: #303030;
-    padding: 10px;
-    line-height: 35px;
-}
-
-.OurOffer-list span {
-    float: right;
-}
-
-/* End of Our Offer */
 
 /* Start of Footer Main */
 .FooterMain {
     background-color: #403D38;
 }
-
 .FooterMain-section h4 {
-    color: #FFFFFF;
+    color:#FFFFFF;
     font-size: 18px;
     font-weight: 400;
     padding-bottom: 10px;
 }
-
 .FooterMain-section {
     width: 25%;
     float: left;
     line-height: 40px;
 }
-
 .FooterMain-section p {
     color: #969696;
     font-family: 14px;
     font-weight: 400;
 }
-
 .FooterMain-section span {
     color: #969696;
     font-family: 14px;
     font-weight: 400;
 }
-
 .FooterMain-section li {
     border-bottom: #686868 1px solid;
 }
-
 .FooterMain p {
     padding-bottom: 20px;
 }
-
 .FooterMain-section li img {
     width: 10%;
 }
-
 .footer-map {
-    background-image: url('./../images/contact-details-map.png');
+    background-image:  url('./../images/contact-details-map.png');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size:auto;
 }
-
 /* End of Footer Main */
 
 /* Start of footer */
@@ -152,7 +114,6 @@ footer {
     padding: 50px 0;
     line-height: 40px;
 }
-
 footer p {
     color: #777777;
     font-size: 15px;
@@ -160,11 +121,9 @@ footer p {
     font-weight: 400;
     margin-top: 5px;
 }
-
 .socials {
     padding-top: 20px;
 }
-
 .socials a {
     color: #8c8a86;
     display: inline-block;
@@ -173,5 +132,4 @@ footer p {
     background-color: #403D38;
     border-radius: 50%;
 }
-
 /* End of footer */
